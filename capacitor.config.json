@@ -1,17 +1,11 @@
 {
   "appId": "com.ionic5loginform",
-  "appName": "loginform",
+  "appName": "IONI FIRST",
   "bundledWebRuntime": false,
   "npmClient": "npm",
   "webDir": "www",
   "server": {
-    "allowNavigation": [
-      "capacitor://localhost",
-      "ionic://localhost",
-      "http://localhost",
-      "http://localhost:8080",
-      "http://localhost:8100"
-    ]
+    "androidScheme": "https"
   },
   "plugins": {
     "SplashScreen": {
@@ -19,6 +13,23 @@
     }
   },
   "cordova": {
-    
+    "preferences": {
+      "ScrollEnabled": "false",
+      "BackupWebStorage": "none",
+      "android-minSdkVersion": "22",
+      "SplashMaintainAspectRatio": "true",
+      "FadeSplashScreenDuration": "300",
+      "SplashShowOnlyFirstTime": "false",
+      "SplashScreen": "none",
+      "SplashScreenDelay": "3000",
+      "LottieAnimationLocation": "www/assets/lottieFile/animation.json",
+      "LottieFullScreen": "true",
+      "LottieBackgroundColor": "#ffffff",
+      "LottieLoopAnimation": "true",
+      "AndroidXEnabled": "true",
+      "GradlePluginKotlinEnabled": "true",
+      "GradlePluginKotlinCodeStyle": "official",
+      "GradlePluginKotlinVersion": "1.3.50"
+    }
   }
 }

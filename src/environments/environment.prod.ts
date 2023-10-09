@@ -4,12 +4,12 @@ export const environment = {
 
 
 export const firebaseConfig = {
-    apiKey: "AIzaSyDSBCHLvTz7C_CrQgbzRehO88isMHYF3HE",
-    authDomain: "ionic5login.firebaseapp.com",
-    databaseURL: "https://ionic5login.firebaseio.com",
-    projectId: "ionic5login",
-    storageBucket: "ionic5login.appspot.com",
-    messagingSenderId: "206201421419",
-    appId: "1:206201421419:web:c871fb13af3220c0befb2e",
-    measurementId: "G-RQLCE2KZPY"
+  apiKey: "AIzaSyCWBWnpwzK1g2iYsdpNyFby2XxorMNIIXk",
+  authDomain: "ionic-login-337fa.firebaseapp.com",
+  databaseURL: "https://ionic-login-337fa-default-rtdb.firebaseio.com",
+  projectId: "ionic-login-337fa",
+  storageBucket: "ionic-login-337fa.appspot.com",
+  messagingSenderId: "452705487184",
+  appId: "1:452705487184:web:f4baa0b85a0c9c75680455",
+  measurementId: "G-CKS2E014LP"
   };
